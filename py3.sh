@@ -4,7 +4,6 @@
 
 set -e
 
-
 DEPENDS=(zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev libgdbm-dev libdb-dev libpcap-dev xz-utils libexpat1-dev liblzma-dev libffi-dev libc6-dev)
 
 . "$(dirname ${0})"/libdepends.sh
